@@ -684,6 +684,9 @@
         <mxCell id="x-5tdieAHwnCZO9cG7j8-64" value="ML Workloads" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2;fontColor=#FF0080;strokeColor=#FF0080;spacingTop=4;spacing=4;spacingRight=4;spacingBottom=4;spacingLeft=4;" vertex="1" parent="x-5tdieAHwnCZO9cG7j8-65">
           <mxGeometry y="90" width="810" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="x-5tdieAHwnCZO9cG7j8-66" value="QnA&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. Which engine runs when connect from Power BI to Databricks tables? --&amp;gt; serverless SQL&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. For federated tables, are data copied over? --&amp;gt; no, it is not copied over.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3. Should we use Views to limit the computing load from the backend WH in federated tables? There are a few options:&lt;/div&gt;&lt;div&gt;a. Create views in Synapse and federate these views&lt;/div&gt;&lt;div&gt;b. Federate the tables, and create views in Databricks&lt;/div&gt;&lt;div&gt;c. Federate the tables, and use SQL good practices to limit backend WH loads.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;4. How can we reproduce existing table relationships in Synapse and AAS to replace the existing flow with directly link Power BI with Databricks tables? --&amp;gt; Technically possible, but will need time to look into the details. Consider keeping the Write Back route to Synapse and subsequent workflow before further studies conclude.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-2410" y="1410" width="360" height="330" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
