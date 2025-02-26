@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.16">
   <diagram name="Page-1" id="B3_KH8wk7F7RN1pUJvzA">
-    <mxGraphModel dx="6533" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="8144" dy="1565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1117,7 +1117,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y0jw72E8UdFpRAnmHheL-11" value="BE codes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Y0jw72E8UdFpRAnmHheL-11" value="Backend codes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-3387.5" y="2640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Y0jw72E8UdFpRAnmHheL-19" value="Data on Databricks" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -1130,10 +1130,10 @@
           <mxGeometry x="-3415" y="2430" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Y0jw72E8UdFpRAnmHheL-29" value="&lt;div&gt;How to authenticate and authorize end-user to both FE and backend data?&lt;/div&gt;any network configuration we should be aware of to ensure the user can access the URL?&lt;div&gt;any mechanism to shut down the web server after an idle time? If yes, can we pre-warm it on a schedule?&lt;/div&gt;&lt;div&gt;We plan to write both the BE and FE together in 1 service, they will run on the same compute once deployed?&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;size=0.1250000000000057;align=left;spacing=5;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-1975" y="2490" width="280" height="200" as="geometry" />
+          <mxGeometry x="-2925.37" y="2290" width="280" height="200" as="geometry" />
         </mxCell>
         <mxCell id="Y0jw72E8UdFpRAnmHheL-30" value="&lt;div&gt;Scenarios:&lt;/div&gt;&lt;div&gt;1. Interactive mode:&lt;/div&gt;&lt;div&gt;- User uploads a picture to the FE app&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Backend code processes the data and returns results to user via FE&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Backend code logs received picture to a volume + results to a table&lt;/div&gt;&lt;div&gt;2. Batch mode:&lt;/div&gt;&lt;div&gt;- An external system collects and deposit pictures to the ADLS2 container&lt;/div&gt;&lt;div&gt;- BE code processes the new data and returns the results to a table&lt;/div&gt;&lt;div&gt;- The table is refreshed in the FE or BI&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=5;" vertex="1" parent="1">
-          <mxGeometry x="-1975" y="2730" width="420" height="140" as="geometry" />
+          <mxGeometry x="-2590" y="2300" width="420" height="140" as="geometry" />
         </mxCell>
         <mxCell id="Y0jw72E8UdFpRAnmHheL-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0080;" edge="1" parent="1" source="Y0jw72E8UdFpRAnmHheL-31" target="Y0jw72E8UdFpRAnmHheL-35">
           <mxGeometry relative="1" as="geometry" />
