@@ -1843,35 +1843,50 @@
         <mxCell id="i53zoW-CRQaskHRGYXe_-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i53zoW-CRQaskHRGYXe_-29" target="i53zoW-CRQaskHRGYXe_-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="i53zoW-CRQaskHRGYXe_-42" value="runs on" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i53zoW-CRQaskHRGYXe_-35">
+          <mxGeometry x="-0.2369" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="i53zoW-CRQaskHRGYXe_-29" value="AI Models" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
           <mxGeometry x="50" y="294" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="i53zoW-CRQaskHRGYXe_-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i53zoW-CRQaskHRGYXe_-30" target="i53zoW-CRQaskHRGYXe_-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="i53zoW-CRQaskHRGYXe_-43" value="hosts" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i53zoW-CRQaskHRGYXe_-36">
+          <mxGeometry x="-0.2529" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="i53zoW-CRQaskHRGYXe_-30" value="Infrastructure Deployment" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
-          <mxGeometry x="50" y="360" width="80" height="40" as="geometry" />
+          <mxGeometry x="50" y="380" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="i53zoW-CRQaskHRGYXe_-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i53zoW-CRQaskHRGYXe_-31" target="i53zoW-CRQaskHRGYXe_-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="i53zoW-CRQaskHRGYXe_-41" value="calls" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i53zoW-CRQaskHRGYXe_-34">
+          <mxGeometry x="-0.107" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="i53zoW-CRQaskHRGYXe_-31" value="Software and Wrappers" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
-          <mxGeometry x="50" y="214" width="80" height="46" as="geometry" />
+          <mxGeometry x="50" y="190" width="80" height="46" as="geometry" />
         </mxCell>
         <mxCell id="i53zoW-CRQaskHRGYXe_-32" value="GPU" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
-          <mxGeometry x="50" y="428" width="80" height="30" as="geometry" />
+          <mxGeometry x="50" y="462" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i53zoW-CRQaskHRGYXe_-37" value="AI Startups,&lt;div&gt;MS Office&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
-          <mxGeometry x="140" y="214" width="90" height="46" as="geometry" />
+          <mxGeometry x="140" y="190" width="90" height="46" as="geometry" />
         </mxCell>
         <mxCell id="i53zoW-CRQaskHRGYXe_-38" value="GPT, Claude, Gemini" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
           <mxGeometry x="140" y="294" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="i53zoW-CRQaskHRGYXe_-39" value="Azure, AWS" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
-          <mxGeometry x="140" y="360" width="90" height="40" as="geometry" />
+          <mxGeometry x="140" y="380" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="i53zoW-CRQaskHRGYXe_-40" value="NVIDIA" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
-          <mxGeometry x="140" y="428" width="90" height="30" as="geometry" />
+          <mxGeometry x="140" y="462" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
