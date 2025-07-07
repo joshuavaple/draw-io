@@ -193,7 +193,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="d179B_yppHLe4lyh9erR" name="mlflow-genai">
-    <mxGraphModel dx="1472" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1251" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -226,10 +226,20 @@
           <mxGeometry x="420" y="130" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9kzrK-drlzXipjEnNl-j-44" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="9kzrK-drlzXipjEnNl-j-3" target="9kzrK-drlzXipjEnNl-j-30">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="200" />
+              <mxPoint x="1020" y="200" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="9kzrK-drlzXipjEnNl-j-45" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="9kzrK-drlzXipjEnNl-j-3" target="9kzrK-drlzXipjEnNl-j-43">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="200" />
+              <mxPoint x="880" y="200" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="9kzrK-drlzXipjEnNl-j-3" value="Evaluation Data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="880" y="130" width="120" height="40" as="geometry" />
@@ -240,8 +250,24 @@
         <mxCell id="9kzrK-drlzXipjEnNl-j-4" value="Human Labelling Data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="130" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="9kzrK-drlzXipjEnNl-j-72" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9kzrK-drlzXipjEnNl-j-5" target="9kzrK-drlzXipjEnNl-j-66">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1330" y="200" />
+              <mxPoint x="1222" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9kzrK-drlzXipjEnNl-j-73" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="9kzrK-drlzXipjEnNl-j-5" target="9kzrK-drlzXipjEnNl-j-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1330" y="200" />
+              <mxPoint x="1425" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="9kzrK-drlzXipjEnNl-j-5" value="Application Versioning Data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="130" width="120" height="40" as="geometry" />
+          <mxGeometry x="1270" y="130" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9kzrK-drlzXipjEnNl-j-34" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;endFill=1;dashed=1;" edge="1" parent="1" source="9kzrK-drlzXipjEnNl-j-10" target="9kzrK-drlzXipjEnNl-j-33">
           <mxGeometry relative="1" as="geometry">
@@ -310,7 +336,7 @@
           <mxGeometry x="640" y="440" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9kzrK-drlzXipjEnNl-j-21" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;*Ground truth labels (expectations) are &lt;b&gt;NOT&lt;/b&gt; required to measure quality with MLflow. Most applications will &lt;b&gt;NOT&lt;/b&gt; have or only have a &lt;b&gt;MINIMAL&lt;/b&gt; set of ground truth labels.&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;size=0.1111111111111111;spacing=4;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="590" width="170" height="90" as="geometry" />
+          <mxGeometry x="540" y="500" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="9kzrK-drlzXipjEnNl-j-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9kzrK-drlzXipjEnNl-j-14" target="9kzrK-drlzXipjEnNl-j-11">
           <mxGeometry relative="1" as="geometry">
