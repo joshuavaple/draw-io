@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.6" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.7" pages="4">
   <diagram id="3aGBPdW0vTSLmc4iwQ5c" name="nea-safety-ie-classification">
     <mxGraphModel dx="1317" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1977,6 +1977,29 @@
         </mxCell>
         <mxCell id="0QCcLlLcDOl4wgbf46Kr-17" value="Simple Values&lt;div&gt;&lt;i&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Measurements with Boolean, numeric values and pass/fail strings, displayed in UI&lt;/font&gt;&lt;/i&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="340" width="165" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="QrBdZFL7EgJGoYrnQv9u" name="RAG">
+    <mxGraphModel dx="752" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CrGu9HkeC8Xxi3z-eDh_-1" value="Volume" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CrGu9HkeC8Xxi3z-eDh_-2" value="Raw table" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CrGu9HkeC8Xxi3z-eDh_-3" value="path: str&lt;div&gt;modificationTime: timestamp&lt;/div&gt;&lt;div&gt;length: bigint&lt;/div&gt;&lt;div&gt;content: binary&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=5;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="CrGu9HkeC8Xxi3z-eDh_-4" value="Chunk table" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CrGu9HkeC8Xxi3z-eDh_-5" value="&lt;div&gt;id: str&lt;/div&gt;path: str&lt;div&gt;content: str&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=5;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="500" y="280" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
