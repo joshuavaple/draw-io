@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.9" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.7" pages="3">
   <diagram name="Page-1" id="B3_KH8wk7F7RN1pUJvzA">
     <mxGraphModel dx="6102" dy="1638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1887,6 +1887,75 @@
         </mxCell>
         <mxCell id="i53zoW-CRQaskHRGYXe_-40" value="NVIDIA" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
           <mxGeometry x="140" y="462" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="local-llm" id="bXcGF6mQ_fuJjoPVa6Is">
+    <mxGraphModel dx="1392" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="VcH9RzwnQ_xqiVhx5FqH-0" />
+        <mxCell id="VcH9RzwnQ_xqiVhx5FqH-1" parent="VcH9RzwnQ_xqiVhx5FqH-0" />
+        <mxCell id="o9A5cj8FobMXzmtpOkmN-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VcH9RzwnQ_xqiVhx5FqH-1">
+          <mxGeometry x="115" y="540" width="265" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="o9A5cj8FobMXzmtpOkmN-20" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=none;endSize=8;endFill=0;startArrow=none;startFill=0;" edge="1" parent="VcH9RzwnQ_xqiVhx5FqH-1" source="o9A5cj8FobMXzmtpOkmN-0" target="o9A5cj8FobMXzmtpOkmN-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o9A5cj8FobMXzmtpOkmN-0" value="Model Artifacts&lt;div&gt;(~/.ollama/models)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VcH9RzwnQ_xqiVhx5FqH-1">
+          <mxGeometry x="113.75" y="500" width="265" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o9A5cj8FobMXzmtpOkmN-3" value="Model Weights&lt;div&gt;(`blobs`)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VcH9RzwnQ_xqiVhx5FqH-1">
+          <mxGeometry x="130" y="550" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o9A5cj8FobMXzmtpOkmN-4" value="Tokenizer and Metadata" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VcH9RzwnQ_xqiVhx5FqH-1">
+          <mxGeometry x="300" y="550" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o9A5cj8FobMXzmtpOkmN-5" value="Model Metadata&lt;div&gt;(`manifests`)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VcH9RzwnQ_xqiVhx5FqH-1">
+          <mxGeometry x="210" y="550" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o9A5cj8FobMXzmtpOkmN-21" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=none;endSize=8;startArrow=none;startFill=0;endFill=0;" edge="1" parent="VcH9RzwnQ_xqiVhx5FqH-1" source="o9A5cj8FobMXzmtpOkmN-7" target="o9A5cj8FobMXzmtpOkmN-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o9A5cj8FobMXzmtpOkmN-23" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=none;endSize=8;dashed=1;endFill=0;" edge="1" parent="VcH9RzwnQ_xqiVhx5FqH-1" source="o9A5cj8FobMXzmtpOkmN-7" target="o9A5cj8FobMXzmtpOkmN-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o9A5cj8FobMXzmtpOkmN-7" value="Inference Engine&lt;div&gt;(llama.ccp)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VcH9RzwnQ_xqiVhx5FqH-1">
+          <mxGeometry x="161.25" y="410" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o9A5cj8FobMXzmtpOkmN-22" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" edge="1" parent="VcH9RzwnQ_xqiVhx5FqH-1" source="o9A5cj8FobMXzmtpOkmN-8" target="o9A5cj8FobMXzmtpOkmN-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o9A5cj8FobMXzmtpOkmN-8" value="Ollama HTTP REST Server&lt;div&gt;(Go-based&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VcH9RzwnQ_xqiVhx5FqH-1">
+          <mxGeometry x="160" y="320" width="172.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o9A5cj8FobMXzmtpOkmN-10" value="Endpoint" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VcH9RzwnQ_xqiVhx5FqH-1">
+          <mxGeometry x="211.25" y="220" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o9A5cj8FobMXzmtpOkmN-11" value="&lt;ul&gt;&lt;li&gt;Loading and parsing weights.&lt;/li&gt;&lt;li&gt;Offloading layers to GPU/CPU (e.g., your logs: offloading 34 repeating layers to GPU).&lt;/li&gt;&lt;li&gt;Executing the neural network’s forward pass for inference.&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;arcSize=8;" vertex="1" parent="VcH9RzwnQ_xqiVhx5FqH-1">
+          <mxGeometry x="440" y="440" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="o9A5cj8FobMXzmtpOkmN-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;startArrow=none;startFill=0;" edge="1" parent="VcH9RzwnQ_xqiVhx5FqH-1" source="o9A5cj8FobMXzmtpOkmN-14" target="o9A5cj8FobMXzmtpOkmN-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o9A5cj8FobMXzmtpOkmN-14" value="Local Compute Hardware and Driver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VcH9RzwnQ_xqiVhx5FqH-1">
+          <mxGeometry x="-60" y="500" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o9A5cj8FobMXzmtpOkmN-24" value="&lt;ul&gt;&lt;li&gt;HTTP requests (e.g., your curl to http://localhost:11434/v1/chat/completions).&lt;/li&gt;&lt;li&gt;Model selection and loading/unloading (e.g., your observation of GPU memory freeing after inactivity).&lt;/li&gt;&lt;li&gt;Input/output formatting (JSON parsing, tokenization, response wrapping).&lt;/li&gt;&lt;li&gt;Resource management (e.g., OLLAMA_KEEP_ALIVE to control unloading).&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;html=1;align=left;arcSize=8;spacing=10;whiteSpace=wrap;" vertex="1" parent="VcH9RzwnQ_xqiVhx5FqH-1">
+          <mxGeometry x="430" y="265" width="300" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="o9A5cj8FobMXzmtpOkmN-26" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=none;endSize=8;dashed=1;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="VcH9RzwnQ_xqiVhx5FqH-1" source="o9A5cj8FobMXzmtpOkmN-8" target="o9A5cj8FobMXzmtpOkmN-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="420" as="sourcePoint" />
+            <mxPoint x="519" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o9A5cj8FobMXzmtpOkmN-28" value="&lt;div&gt;&lt;b&gt;Additional infrastructure layers&lt;/b&gt;&lt;/div&gt;&lt;div&gt;1. Proxy (Nginx, LiteLLM...): authentication, SSL, request routing, fallback to other models. Need to dockerize Ollama then add Nginx config.&lt;/div&gt;&lt;div&gt;2. Load balancer (Docker Swarm, HAProxy, K8S)&lt;/div&gt;&lt;div&gt;3. Rate limiting (Nginx)&lt;/div&gt;" style="rounded=1;html=1;align=left;arcSize=8;spacing=10;whiteSpace=wrap;" vertex="1" parent="VcH9RzwnQ_xqiVhx5FqH-1">
+          <mxGeometry x="430" y="90" width="300" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
