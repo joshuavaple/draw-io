@@ -1758,152 +1758,152 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RUfCl_Iavy2iQhzdGciY" name="from-gpu-to-developer">
-    <mxGraphModel dx="983" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1373" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="i53zoW-CRQaskHRGYXe_-1" value="GPU" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-1" value="GPU" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" parent="1" vertex="1">
           <mxGeometry x="250" y="481" width="105" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i53zoW-CRQaskHRGYXe_-5" target="i53zoW-CRQaskHRGYXe_-1">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i53zoW-CRQaskHRGYXe_-5" target="i53zoW-CRQaskHRGYXe_-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-24" value="low-level&lt;div&gt;GPU commands&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i53zoW-CRQaskHRGYXe_-21">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-24" value="low-level&lt;div&gt;GPU commands&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="i53zoW-CRQaskHRGYXe_-21" vertex="1" connectable="0">
           <mxGeometry x="-0.2529" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-5" value="Computing Platform" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-5" value="Computing Platform" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" parent="1" vertex="1">
           <mxGeometry x="255" y="380" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-6" value="CUDA, ROCm, OneAPI" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-6" value="CUDA, ROCm, OneAPI" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" parent="1" vertex="1">
           <mxGeometry x="380" y="380" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-7" value="NVIDIA, AMD, Intel" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-7" value="NVIDIA, AMD, Intel" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" parent="1" vertex="1">
           <mxGeometry x="520" y="343" width="130" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-8" value="TSMC, Samsung, Intel, SMIC" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-8" value="TSMC, Samsung, Intel, SMIC" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" parent="1" vertex="1">
           <mxGeometry x="520" y="385" width="130" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-9" value="TSMC,&amp;nbsp;Samsung Foundry, GlobalFoundries,&amp;nbsp;Intel Foundry Services, UMC" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-9" value="TSMC,&amp;nbsp;Samsung Foundry, GlobalFoundries,&amp;nbsp;Intel Foundry Services, UMC" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" parent="1" vertex="1">
           <mxGeometry x="520" y="437" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-10" value="GPU manufacturers" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-10" value="GPU manufacturers" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" parent="1" vertex="1">
           <mxGeometry x="660" y="386" width="100" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-11" value="GPU design and marketing" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-11" value="GPU design and marketing" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" parent="1" vertex="1">
           <mxGeometry x="660" y="343" width="100" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-12" value="Wafer manufacturers" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-12" value="Wafer manufacturers" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" parent="1" vertex="1">
           <mxGeometry x="660" y="437" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-13" value="NVIDIA, AMD, Intel" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-13" value="NVIDIA, AMD, Intel" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" parent="1" vertex="1">
           <mxGeometry x="380" y="480" width="100" height="37" as="geometry" />
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i53zoW-CRQaskHRGYXe_-14" target="i53zoW-CRQaskHRGYXe_-5">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="i53zoW-CRQaskHRGYXe_-14" target="i53zoW-CRQaskHRGYXe_-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-23" value="platform-specific&amp;nbsp;&lt;div&gt;instructions&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i53zoW-CRQaskHRGYXe_-19">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-23" value="platform-specific&amp;nbsp;&lt;div&gt;instructions&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="i53zoW-CRQaskHRGYXe_-19" vertex="1" connectable="0">
           <mxGeometry x="-0.261" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-14" value="Frameworks" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-14" value="Frameworks" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" parent="1" vertex="1">
           <mxGeometry x="255" y="280" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-15" value="Pytorch, Tensorflow, JAX" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-15" value="Pytorch, Tensorflow, JAX" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" parent="1" vertex="1">
           <mxGeometry x="380" y="280" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i53zoW-CRQaskHRGYXe_-16" target="i53zoW-CRQaskHRGYXe_-14">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i53zoW-CRQaskHRGYXe_-16" target="i53zoW-CRQaskHRGYXe_-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-22" value="&lt;div&gt;human-readable&lt;/div&gt;framework API calls" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i53zoW-CRQaskHRGYXe_-18">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-22" value="&lt;div&gt;human-readable&lt;/div&gt;framework API calls" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="i53zoW-CRQaskHRGYXe_-18" vertex="1" connectable="0">
           <mxGeometry x="-0.1467" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-16" value="High-level Languages" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-16" value="High-level Languages" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" parent="1" vertex="1">
           <mxGeometry x="255" y="170" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-17" value="Python, C++" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-17" value="Python, C++" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" parent="1" vertex="1">
           <mxGeometry x="380" y="170" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-25" value="GPU" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-25" value="GPU" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" parent="1" vertex="1">
           <mxGeometry x="530" y="230" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-26" value="&lt;div&gt;processing units&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-26" value="&lt;div&gt;processing units&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" parent="1" vertex="1">
           <mxGeometry x="530" y="264" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-27" value="tensor cores" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-27" value="tensor cores" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" parent="1" vertex="1">
           <mxGeometry x="620" y="264" width="75" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-28" value="memory" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-28" value="memory" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" parent="1" vertex="1">
           <mxGeometry x="700" y="264" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i53zoW-CRQaskHRGYXe_-29" target="i53zoW-CRQaskHRGYXe_-30">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i53zoW-CRQaskHRGYXe_-29" target="i53zoW-CRQaskHRGYXe_-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-42" value="runs on" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i53zoW-CRQaskHRGYXe_-35">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-42" value="runs on" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="i53zoW-CRQaskHRGYXe_-35" vertex="1" connectable="0">
           <mxGeometry x="-0.2369" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-29" value="AI Models" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-29" value="AI Models" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" parent="1" vertex="1">
           <mxGeometry x="50" y="294" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i53zoW-CRQaskHRGYXe_-30" target="i53zoW-CRQaskHRGYXe_-32">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i53zoW-CRQaskHRGYXe_-30" target="i53zoW-CRQaskHRGYXe_-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-43" value="hosts" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i53zoW-CRQaskHRGYXe_-36">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-43" value="hosts" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="i53zoW-CRQaskHRGYXe_-36" vertex="1" connectable="0">
           <mxGeometry x="-0.2529" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-30" value="Infrastructure Deployment" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-30" value="Infrastructure Deployment" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" parent="1" vertex="1">
           <mxGeometry x="50" y="380" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i53zoW-CRQaskHRGYXe_-31" target="i53zoW-CRQaskHRGYXe_-29">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="i53zoW-CRQaskHRGYXe_-31" target="i53zoW-CRQaskHRGYXe_-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-41" value="calls" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i53zoW-CRQaskHRGYXe_-34">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-41" value="calls" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="i53zoW-CRQaskHRGYXe_-34" vertex="1" connectable="0">
           <mxGeometry x="-0.107" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-31" value="Software and Wrappers" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-31" value="Software and Wrappers" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" parent="1" vertex="1">
           <mxGeometry x="50" y="190" width="80" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-32" value="GPU" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-32" value="GPU" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" parent="1" vertex="1">
           <mxGeometry x="50" y="462" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-37" value="AI Startups,&lt;div&gt;MS Office&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-37" value="AI Startups,&lt;div&gt;MS Office&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" parent="1" vertex="1">
           <mxGeometry x="140" y="190" width="90" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-38" value="GPT, Claude, Gemini" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-38" value="GPT, Claude, Gemini" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" parent="1" vertex="1">
           <mxGeometry x="140" y="294" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-39" value="Azure, AWS" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-39" value="Azure, AWS" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" parent="1" vertex="1">
           <mxGeometry x="140" y="380" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="i53zoW-CRQaskHRGYXe_-40" value="NVIDIA" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+        <mxCell id="i53zoW-CRQaskHRGYXe_-40" value="NVIDIA" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;" parent="1" vertex="1">
           <mxGeometry x="140" y="462" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="local-llm" id="bXcGF6mQ_fuJjoPVa6Is">
-    <mxGraphModel dx="1392" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2223" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="VcH9RzwnQ_xqiVhx5FqH-0" />
         <mxCell id="VcH9RzwnQ_xqiVhx5FqH-1" parent="VcH9RzwnQ_xqiVhx5FqH-0" />
         <mxCell id="o9A5cj8FobMXzmtpOkmN-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VcH9RzwnQ_xqiVhx5FqH-1">
-          <mxGeometry x="115" y="540" width="265" height="70" as="geometry" />
+          <mxGeometry x="110" y="540" width="270" height="70" as="geometry" />
         </mxCell>
         <mxCell id="o9A5cj8FobMXzmtpOkmN-20" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=none;endSize=8;endFill=0;startArrow=none;startFill=0;" edge="1" parent="VcH9RzwnQ_xqiVhx5FqH-1" source="o9A5cj8FobMXzmtpOkmN-0" target="o9A5cj8FobMXzmtpOkmN-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o9A5cj8FobMXzmtpOkmN-0" value="Model Artifacts&lt;div&gt;(~/.ollama/models)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VcH9RzwnQ_xqiVhx5FqH-1">
-          <mxGeometry x="113.75" y="500" width="265" height="40" as="geometry" />
+          <mxGeometry x="110" y="500" width="268.75" height="40" as="geometry" />
         </mxCell>
         <mxCell id="o9A5cj8FobMXzmtpOkmN-3" value="Model Weights&lt;div&gt;(`blobs`)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VcH9RzwnQ_xqiVhx5FqH-1">
           <mxGeometry x="130" y="550" width="70" height="50" as="geometry" />
@@ -1956,6 +1956,31 @@
         </mxCell>
         <mxCell id="o9A5cj8FobMXzmtpOkmN-28" value="&lt;div&gt;&lt;b&gt;Additional infrastructure layers&lt;/b&gt;&lt;/div&gt;&lt;div&gt;1. Proxy (Nginx, LiteLLM...): authentication, SSL, request routing, fallback to other models. Need to dockerize Ollama then add Nginx config.&lt;/div&gt;&lt;div&gt;2. Load balancer (Docker Swarm, HAProxy, K8S)&lt;/div&gt;&lt;div&gt;3. Rate limiting (Nginx)&lt;/div&gt;" style="rounded=1;html=1;align=left;arcSize=8;spacing=10;whiteSpace=wrap;" vertex="1" parent="VcH9RzwnQ_xqiVhx5FqH-1">
           <mxGeometry x="430" y="90" width="300" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="o9A5cj8FobMXzmtpOkmN-31" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" edge="1" parent="VcH9RzwnQ_xqiVhx5FqH-1" source="o9A5cj8FobMXzmtpOkmN-29" target="o9A5cj8FobMXzmtpOkmN-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o9A5cj8FobMXzmtpOkmN-29" value="Model Artifacts" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VcH9RzwnQ_xqiVhx5FqH-1">
+          <mxGeometry x="140" y="970" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o9A5cj8FobMXzmtpOkmN-35" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" edge="1" parent="VcH9RzwnQ_xqiVhx5FqH-1" source="o9A5cj8FobMXzmtpOkmN-30" target="o9A5cj8FobMXzmtpOkmN-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o9A5cj8FobMXzmtpOkmN-30" value="Hugging Face Transformers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VcH9RzwnQ_xqiVhx5FqH-1">
+          <mxGeometry x="140" y="870" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o9A5cj8FobMXzmtpOkmN-33" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" edge="1" parent="VcH9RzwnQ_xqiVhx5FqH-1" source="o9A5cj8FobMXzmtpOkmN-32" target="o9A5cj8FobMXzmtpOkmN-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="35" y="890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o9A5cj8FobMXzmtpOkmN-32" value="Local Compute Hardware and Driver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VcH9RzwnQ_xqiVhx5FqH-1">
+          <mxGeometry x="-40" y="970" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o9A5cj8FobMXzmtpOkmN-34" value="FastAPI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VcH9RzwnQ_xqiVhx5FqH-1">
+          <mxGeometry x="140" y="790" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
